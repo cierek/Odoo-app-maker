@@ -9,7 +9,7 @@
 
 #-------------------------------------------------
 # Folders
-#--------------------------------------------------
+#-------------------------------------------------
 
 echo -e "\n---- Creating folders ----"
 mkdir -p App
@@ -36,6 +36,11 @@ mkdir -p App/static/description
 #To learn more Coding guidelines visit https://www.odoo.com/documentation/17.0/contributing/development/coding_guidelines.html
 
 echo "Folders created"
+
+
+#-------------------------------------------------
+# Files
+#-------------------------------------------------
 
 # Create the "__manifest__.py" file inside the "App" folder
 # Manifest is based on https://www.odoo.com/documentation/17.0/developer/reference/backend/module.html
